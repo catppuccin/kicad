@@ -1,0 +1,25 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Catppuccin",
+  "description": "Soothing pastel theme for KiCad",
+  "description_full": "4 Catppuccin flavors for KiCad, for both eeschema and pcbnew.",
+  "identifier": "com.github.waterlilly-lilly.catppuccin-kicad",
+  "type": "colortheme",
+  "author": {
+    "name": "Mae Rosaline",
+    "contact": {
+      "web": "https://github.com/waterlilly-lilly"
+    }
+  },
+  "license": "MIT",
+  "resources": {
+    "github": "https://github.com/waterlilly-lilly/catppuccin-kicad"
+  },
+  "versions": [
+    {
+      "version": "0.1.0",
+      "status": "development",
+      "kicad_version": "7.0"
+    }
+  ]
+}
