@@ -19,24 +19,24 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="./assets/previews/latte.webp"/>
+<img src="./assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="./assets/previews/frappe.webp"/>
+<img src="./assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="./assets/previews/macchiato.webp"/>
+<img src="./assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="./assets/previews/mocha.webp"/>
+<img src="./assets/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Download the plugin from the [./releases](Releases). Make sure to download the release and not the source code!
+1. Download the plugin from the [Releases](https://github.com/waterlilly-lilly/catppuccin-kicad/releases/latest). Make sure to download the release and not the source code!
 2. In KiCad, open the Plugin and Content Manager. Click "Install from File..." at the bottom.
 3. Select the zip file you downloaded, and open it with the system file dialog.
 4. Close the Plugin and Content Manager and open the Preferences.
