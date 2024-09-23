@@ -3,7 +3,7 @@
   "name": "Catppuccin",
   "description": "Soothing pastel theme for KiCad",
   "description_full": "4 Catppuccin flavors for KiCad, for both eeschema and pcbnew.",
-  "identifier": "com.github.waterlilly-lilly.catppuccin-kicad",
+  "identifier": "com.github.catppuccin.kicad",
   "type": "colortheme",
   "author": {
     "name": "Mae Rosaline",
@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "resources": {
-    "github": "https://github.com/waterlilly-lilly/catppuccin-kicad"
+    "github": "https://github.com/catppuccin/kicad"
   },
   "versions": [
     {
