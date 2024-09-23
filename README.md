@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
- <a href="https://github.com/waterlilly-lilly/catppuccin-kicad/stargazers"><img src="https://img.shields.io/github/stars/waterlilly-lilly/catppuccin-kicad?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
- <a href="https://github.com/waterlilly-lilly/catppuccin-kicad/issues"><img src="https://img.shields.io/github/issues/waterlilly-lilly/catppuccin-kicad?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
- <a href="https://github.com/waterlilly-lilly/catppuccin-kicad/contributors"><img src="https://img.shields.io/github/contributors/waterlilly-lilly/catppuccin-kicad?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+ <a href="https://github.com/catppuccin/kicad/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/kicad?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+ <a href="https://github.com/catppuccin/kicad/issues"><img src="https://img.shields.io/github/issues/catppuccin/kicad?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+ <a href="https://github.com/catppuccin/kicad/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/kicad?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Download the plugin from the [Releases](https://github.com/waterlilly-lilly/catppuccin-kicad/releases/latest). Make sure to download the release and not the source code!
+1. Download the plugin from the [latest GitHub release](https://github.com/catppuccin/kicad/releases/latest). Make sure to download the release and not the source code!
 2. In KiCad, open the Plugin and Content Manager. Click "Install from File..." at the bottom.
 3. Select the zip file you downloaded, and open it with the system file dialog.
 4. Close the Plugin and Content Manager and open the Preferences.
