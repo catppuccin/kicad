@@ -1,0 +1,17 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v2#/definitions/Repository",
+  "name": "Catppuccin KiCad Repository",
+  "maintainer": {
+    "name": "Catppuccin Org",
+    "contact": {
+      "web": "https://github.com/catppuccin"
+    }
+  },
+  "schema_version": 2,
+  "packages": {
+    "url": "https://raw.githubusercontent.com/catppuccin/kicad/main/packages.json",
+    "sha256": "76cba8cb87fb4bea2fbb784bf3f3790681b5bfad92e522f60686e0d85943ed51",
+    "update_timestamp": 1779068252,
+    "update_time_utc": "2026-05-18 02:37:32"
+  }
+}

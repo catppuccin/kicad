@@ -36,17 +36,22 @@
 
 ## Usage
 
-1. Download the plugin from the [latest GitHub release](https://github.com/catppuccin/kicad/releases/latest). Make sure to download the release and not the source code!
-2. In KiCad, open the Plugin and Content Manager. Click "Install from File..." at the bottom.
-3. Select the zip file you downloaded, and open it with the system file dialog.
-4. Close the Plugin and Content Manager and open the Preferences.
-5. In Symbol Editor, Schematic Editor, Footprint Editor, and PCB Editor, and under Colors for each, set the theme dropdown to your preferred Catppuccin flavor.
+1. Download the plugin from
+   the [latest GitHub release](https://github.com/catppuccin/kicad/releases/latest).
+   Make sure to download the release and not the source code!
+1. In KiCad, open the Plugin and Content Manager. Click "Install from File..."
+   at the bottom.
+1. Select the zip file you downloaded, and open it with the system file dialog.
+1. Close the Plugin and Content Manager and open the Preferences.
+1. In Symbol Editor, Schematic Editor, Footprint Editor, and PCB Editor, and
+   under Colors for each, set the theme dropdown to your preferred Catppuccin
+   flavor.
 
 ## 💝 Thanks to
 
 - [Mae Rosaline](https://github.com/waterlilly-lilly)
 
-&nbsp;
+&#160;
 
 <p align="center">
  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />

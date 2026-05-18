@@ -1,0 +1,58 @@
+include = [ "**/*.toml" ]
+exclude = [
+  ".bzr/**",
+  ".direnv/**",
+  ".eggs/**",
+  ".git/**",
+  ".git-rewrite/**",
+  ".hg/**",
+  ".ipynb_checkpoints/**",
+  ".mypy_cache/**",
+  ".nox/**",
+  ".pants.d/**",
+  ".pyenv/**",
+  ".pytest_cache/**",
+  ".pytype/**",
+  ".ruff_cache/**",
+  ".svn/**",
+  ".tox/**",
+  ".venv/**",
+  ".vscode/**",
+  "__pypackages__/**",
+  "_build/**",
+  "buck-out/**",
+  "build/**",
+  "dist/**",
+  "node_modules/**",
+  "site-packages/**",
+  "venv/**",
+]
+
+[formatting]
+  align_entries         = true
+  align_comments        = true
+  align_single_comments = true
+  array_trailing_comma  = true
+  array_auto_expand     = true
+  array_auto_collapse   = true
+  compact_arrays        = false
+  compact_inline_tables = false
+  inline_table_expand   = true
+  compact_entries       = false
+  column_width          = 80
+  indent_tables         = true
+  indent_entries        = true
+  indent_string         = "  "
+  trailing_newline      = true
+  reorder_keys          = false
+  reorder_arrays        = false
+  reorder_inline_tables = false
+  allowed_blank_lines   = 1
+  crlf                  = false
+
+[[rule]]
+  include = [ "taplo.toml", ".taplo.toml", "pyproject.toml" ]
+  keys    = [ "exclude" ]
+
+  [rule.formatting]
+    reorder_keys = true

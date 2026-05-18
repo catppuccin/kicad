@@ -1,0 +1,102 @@
+[project]
+  name = "catppuccin-kicad"
+  version = "1.0.0"
+  description = "Soothing pastel theme for KiCad"
+  requires-python = ">=3.11"
+  dependencies = [ "packaging>=26.2" ]
+  license = "MIT"
+  classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Development Status :: 5 - Production/Stable",
+  ]
+  keywords = [ "kicad", "theme", "catppuccin" ]
+  readme = "README.md"
+
+  [[project.authors]]
+    name = "Catppuccin"
+
+  [project.urls]
+    Homepage   = "https://catppuccin.com"
+    Repository = "https://github.com/catppuccin/kicad"
+
+  [project.optional-dependencies]
+    dev = [ "mdformat>=0.7.0", "mypy>=1.8.0", "ruff>=0.4.0", "yamlfix>=0.11.0" ]
+
+[tool.catppuccin-kicad]
+  name       = "com.github.catppuccin.kicad"
+  status     = "stable"
+  build-hash = "fed1a9f48cc6e07c180a23e7db931f0c526c08c0d35c3cb473f0f7f9759444f1"
+
+[tool.ruff]
+  include        = [ "scripts/build.py" ]
+  line-length    = 80
+  indent-width   = 4
+  target-version = "py311"
+
+  [tool.ruff.lint]
+    select             = [ "E4", "E7", "E9", "F" ]
+    ignore             = [  ]
+    fixable            = [ "ALL" ]
+    unfixable          = [  ]
+    dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+  [tool.ruff.format]
+    quote-style                = "double"
+    indent-style               = "space"
+    skip-magic-trailing-comma  = false
+    line-ending                = "auto"
+    docstring-code-format      = true
+    docstring-code-line-length = "dynamic"
+
+[tool.yamlfix]
+  allow_duplicate_keys             = false
+  comments_min_spaces_from_content = 2
+  comments_require_starting_space  = true
+  whitelines                       = 0
+  comments_whitelines              = 1
+  section_whitelines               = 1
+  explicit_start                   = true
+  sequence_style                   = "flow_style"
+  line_length                      = 120
+  none_representation              = "null"
+  quote_basic_values               = false
+  quote_representation             = "\""
+
+[tool.mypy]
+  python_version = "3.11"
+  warn_return_any = true
+  warn_unused_configs = true
+  exclude = [
+    ".bzr/**",
+    ".direnv/**",
+    ".eggs/**",
+    ".git/**",
+    ".git-rewrite/**",
+    ".hg/**",
+    ".ipynb_checkpoints/**",
+    ".mypy_cache/**",
+    ".nox/**",
+    ".pants.d/**",
+    ".pyenv/**",
+    ".pytest_cache/**",
+    ".pytype/**",
+    ".ruff_cache/**",
+    ".svn/**",
+    ".tox/**",
+    ".venv/**",
+    ".vscode/**",
+    "__pypackages__/**",
+    "_build/**",
+    "buck-out/**",
+    "build/**",
+    "dist/**",
+    "node_modules/**",
+    "site-packages/**",
+    "venv/**",
+  ]

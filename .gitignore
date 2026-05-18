@@ -1,0 +1,10 @@
+# venvs
+/venv/
+/.venv/
+
+# build artifacts
+catppuccin-kicad-v*.zip
+
+# editors
+/.idea/
+/.vscode/
